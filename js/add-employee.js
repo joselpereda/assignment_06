@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
         window.close();
     });
 // HANDLE THE SUBMISSION OF THE FORM AND THEN IMMEDIATELY PREVENT THE SUBMISSION
-    form.addEventListener('submit', function (e) {
+    document.getElementById('empForm').addEventListener('submit', function (e) {
         e.preventDefault();
 
 // CREATE 5 VARIABLES FOR ID, NAME, EXT, EMAIL, AND DEPT
