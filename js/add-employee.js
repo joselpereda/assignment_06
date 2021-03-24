@@ -39,6 +39,6 @@ window.addEventListener('load', () => {
 // CLOSE THE POPUP
         window.close();
 // THE DATA SHOULD SHOW ON THE INDEX.HTML PAGE
-        output.innerHTML = 'What?!';
+        output.innerHTML = newOutput;
     });
 });
